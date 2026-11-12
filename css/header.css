@@ -5,8 +5,29 @@ header{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    position: relative;
+}
+
+.navigation-menu input[type="checkbox"]:checked~nav{
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--background-tertiary-color);
+    width: 100%;
 }
 
 .navigation-menu nav{
     display: none;
+}
+
+.navigation-menu .link-list{
+    list-style: none;
+}
+
+.navigation-menu .link-list a{
+    color: var(--font-secondary-color);
+    text-decoration: none;
+    padding: 16px 48px;
+    display: inline-block;
 }
