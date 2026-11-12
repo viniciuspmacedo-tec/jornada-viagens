@@ -1,0 +1,12 @@
+header{
+    background-color: var(--background-tertiary-color);
+    padding: 38px 48px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-menu nav{
+    display: none;
+}
