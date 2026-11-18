@@ -64,7 +64,7 @@ body {
     text-align: center;
 }
 
-.button.mobile{
+.button.mobile {
     width: 312px;
 }
 
@@ -72,6 +72,11 @@ body {
     .section-title {
         width: 366px;
     }
+
+    .button.mobile {
+        width: 280px;
+    }
+
 }
 
 @media screen and (min-width:1440px) {

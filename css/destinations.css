@@ -29,3 +29,21 @@
     font-weight: var(--text-weight);
     line-height: 2rem;
 }
+
+@media screen and (min-width:768px) {
+    .destination-card{
+        width: 648px;
+        height: 750px;
+    }
+}
+
+@media screen and (min-width:768px) {
+.destinations-cards{
+    flex-direction: row;
+    gap: 24px;
+}
+
+    .destination-card{
+        width: 588px;
+    }
+}
