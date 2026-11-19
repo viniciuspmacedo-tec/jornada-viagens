@@ -32,8 +32,12 @@ body {
     color: var(--font-primary-color)
 }
 
-.section-title {
+section {
     width: 312px;
+    margin: 0 auto 88px auto;
+}
+
+.section-title {
     margin: 0 auto;
 }
 
@@ -52,7 +56,7 @@ body {
 }
 
 .button {
-    width: 280px;
+    min-width: 280px;
     height: 64px;
     background-color: var(--button-primary-color);
     line-height: 64px;
@@ -64,11 +68,11 @@ body {
     text-align: center;
 }
 
-.button.mobile {
-    width: 312px;
-}
-
 @media screen and (min-width: 768px) {
+    section {
+        width: 648px;
+    }
+
     .section-title {
         width: 366px;
     }
@@ -80,6 +84,10 @@ body {
 }
 
 @media screen and (min-width:1440px) {
+    section {
+        width: 1200px;
+    }
+
     .button:hover {
         background-color: var(--button-secondary-color);
     }
