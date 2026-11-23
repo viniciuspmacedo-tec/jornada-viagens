@@ -1,0 +1,40 @@
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.testimonial-text{
+    font-weight: var(--text-weight);
+    line-height: 1.75rem;
+}
+
+.testimonial-author{
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    margin-top: 8px;
+}
+
+.testimonial-author img{
+    width: 86px;
+    height: 86px;
+    border-radius: 50%;
+}
+
+.testimonial-author .testimonial-author-name{
+    font-size: 1.25rem;
+    font-weight: var(--title-weight);
+}
+
+.testimonial-author .testimonial-author-rating .star{
+    font-size: 2rem;
+    color: var(--button-primary-color);
+}
+
+@media screen and (min-width: 1440px){
+    .testimonials-container{
+        flex-direction: row;
+        gap: 24px;
+    }
+}
