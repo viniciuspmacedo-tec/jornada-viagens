@@ -20,26 +20,79 @@
     gap: 24px;
 }
 
-.image.bag {
-    background: url('../img/pag-bag-mobile.png') no-repeat center;
+.image.first {
+    background: url('../img/pay-first-mobile.png') no-repeat center;
     background-size: cover;
     grid-area: bag;
     width: 100%;
     height: 100%;
 }
 
-.image.passport {
-    background: url('../img/pag-passport-mobile.png') no-repeat center;
+.image.second {
+    background: url('../img/pay-second-mobile.png') no-repeat center;
     background-size: cover;
     grid-area: passport;
     width: 100%;
     height: 100%;
 }
 
-.image.people {
-    background: url('../img/pag-people-mobile.png') no-repeat center;
+.image.thirdy {
+    background: url('../img/pay-thirdy-mobile.png') no-repeat center;
     background-size: cover;
     grid-area: people;
     width: 100%;
     height: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    .image-content {
+        width: 648px;
+    }
+
+    .image.first {
+        background: url('../img/pay-first-tablet.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .image.second {
+        background: url('../img/pay-second-tablet.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .image.thirdy {
+        background: url('../img/pay-thirdy-tablet.png') no-repeat center;
+        background-size: cover;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .content-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .text-content{
+        max-width: 384px;
+    }
+
+    .image-content {
+        width: 790px;
+    }
+
+    .image.first {
+        background: url('../img/pay-first-tablet.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .image.second {
+        background: url('../img/pay-second-tablet.png') no-repeat center;
+        background-size: cover;
+    }
+
+    .image.thirdy {
+        background: url('../img/pay-thirdy-tablet.png') no-repeat center;
+        background-size: cover;
+    }
 }
