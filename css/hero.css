@@ -1,13 +1,23 @@
-section.hero {
+section.hero,
+section.bottom-hero {
     width: 100%;
 }
 
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
     width: 100%;
     height: 400px;
+}
+
+.hero .hero-img {
     background: url("../img/hero-mobile.png") center no-repeat;
     background-size: cover;
     margin-bottom: 88px;
+}
+
+.bottom-hero .hero-img {
+    background: url("../img/bottom-hero-mobile.png");
+    background-size: cover;
 }
 
 .hero-text {
@@ -20,9 +30,14 @@ section.hero {
 }
 
 @media screen and (min-width: 768px) {
-    .hero-img {
+    .hero .hero-img {
         background-image: url("../img/hero-tablet.png");
         height: 620px;
+    }
+
+    .bottom-hero .hero-img {
+        background: url("../img/bottom-hero-tablet.png");
+        background-size: cover;
     }
 
     .hero-text {
@@ -37,7 +52,12 @@ section.hero {
         padding: 0 120px;
     }
 
-    .hero-img {
+    .hero .hero-img {
         background-image: url("../img/hero-desktop.png");
+    }
+
+    .bottom-hero .hero-img {
+        background: url("../img/bottom-hero-desktop.png");
+        background-size: cover;
     }
 }
