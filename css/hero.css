@@ -1,6 +1,7 @@
 section.hero,
 section.bottom-hero {
     width: 100%;
+    margin-bottom: 0;
 }
 
 .hero .hero-img,
